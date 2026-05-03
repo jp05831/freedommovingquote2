@@ -4,19 +4,19 @@ import { Star } from 'lucide-react';
 
 const reviews = [
   {
-    text: "The team was professional and efficient. Made our cross-country move stress-free!",
-    author: "David L.",
-    route: "California → Texas",
+    text: "What a great experience. From first call with Christina, to the home visit by Randy I knew I found my movers. Very efficient and 100% honest! On moving day Mario and Matt arrived exactly at arranged time and couldn't be nicer guys! Handled my stuff very carefully and took extra care with some important stuff. I will definitely use these guys again!",
+    author: "Matt T.",
+    location: "Blue Bell, PA",
   },
   {
-    text: "Accurate quote, on-time pickup and delivery. Couldn't ask for more.",
-    author: "Amanda W.",
-    route: "New York → Florida",
+    text: "We found Freedom Movers through a mail flyer and decided to give them a try. They are a small family owned company with personalized service. Randy is the owner and was great to work with. His team was polite and professional. The move went very smoothly and nothing got damaged or broken. His price was reasonable and less than competitors. Would definitely recommend.",
+    author: "Jeri S.",
+    location: "New Hope, PA",
   },
   {
-    text: "Excellent service from start to finish. The movers were careful with all our belongings.",
-    author: "Chris M.",
-    route: "Florida → Texas",
+    text: "I couldn't have hand picked a better team of movers that were professional, courteous and ON TIME. These guys moved every big and small piece out of our house while smiling and being friendly. It was as if Superman cloned himself and opened a moving company. If you want peace of mind, a crew who will show on time and will stay till every piece of furniture has been moved, Randy is your man. Worth every penny!",
+    author: "Adam T.",
+    location: "New York, NY",
   }
 ];
 
@@ -31,7 +31,7 @@ export default function TrustBadges() {
           ))}
         </div>
         <span className="text-sm text-slate-500">
-          <span className="font-semibold text-slate-700">4.8</span> from 12,800+ reviews
+          <span className="font-semibold text-slate-700">5.0</span> on Yelp
         </span>
       </div>
 
@@ -43,7 +43,7 @@ export default function TrustBadges() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-medium text-slate-800">{review.author}</p>
-                <p className="text-xs text-slate-400">{review.route}</p>
+                <p className="text-xs text-slate-400">{review.location}</p>
               </div>
               <div className="flex gap-0.5">
                 {[1, 2, 3, 4, 5].map((j) => (
@@ -57,9 +57,8 @@ export default function TrustBadges() {
 
       {/* Trust badges */}
       <div className="flex justify-center gap-6 mb-6 text-sm text-slate-500">
-        <span>🏆 AMSA Member</span>
-        <span>✓ Certified ProMover</span>
-        <span>A+ BBB Rated</span>
+        <span>📍 Bucks County & Surrounding Areas</span>
+        <span>✓ Family Owned</span>
       </div>
 
       {/* Guarantee */}
