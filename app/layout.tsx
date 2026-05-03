@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script
-          src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBC9TPUwBId_iXl3frPZMRztIU-2QOwEbI&libraries=places`}
+          src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyC1v41FTfPzC3YajEnNj4EAz4FVcfT0q68&libraries=places`}
           async
           defer
         />
